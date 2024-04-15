@@ -8,7 +8,7 @@ def parse_args():
     parser = argparse.ArgumentParser(
         description="Generate SRS document from image"
     );
-    parser.add_argument("image", type=str, help="Name of the Apk file to upload")
+    parser.add_argument("image", type=str, help="Path of the image")
     return parser.parse_args()
 
 def main():
