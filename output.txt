@@ -1,0 +1,116 @@
+ """
+# Software Requirements Specification (SRS) Document
+
+## 1. Introduction
+
+### 1.1 Purpose
+The purpose of this document is to outline the software requirements for the Recycle mobile application. This application will allow users to easily find and connect with local recycling centers, as well as track their own recycling progress.
+
+### 1.2 Definitions, Acronyms, and Abbreviations
+* **API:** Application Programming Interface
+* **GPS:** Global Positioning System
+* **UI:** User Interface
+* **UX:** User Experience
+
+## 2. Overall Description
+
+### 2.1 Product Perspective
+The Recycle mobile application will be a native Android application that will allow users to easily find and connect with local recycling centers. The application will also allow users to track their own recycling progress.
+
+### 2.2 Product Functions
+The Recycle mobile application will provide the following functions:
+
+* Allow users to search for local recycling centers by location or type of material
+* Provide information about each recycling center, including hours of operation, accepted materials, and contact information
+* Allow users to track their own recycling progress
+* Provide tips and advice on how to recycle more effectively
+
+### 2.3 User Classes and Characteristics
+The Recycle mobile application will be designed for the following user classes:
+
+* Individuals who are interested in recycling
+* Families who are interested in recycling
+* Businesses that are interested in recycling
+
+### 2.4 Operating Environment
+The Recycle mobile application will be developed for the Android operating system. The application will be compatible with devices running Android 5.0 and later.
+
+## 3. Specific Requirements
+
+### 3.1 External Interface Requirements
+
+#### 3.1.1 User Interfaces
+The Recycle mobile application will have a user-friendly interface that is easy to navigate. The application will use a combination of text, images, and icons to convey information to the user.
+
+#### 3.1.2 Hardware Interfaces
+The Recycle mobile application will use the following hardware interfaces:
+
+* GPS: to allow users to search for local recycling centers by location
+* Camera: to allow users to take photos of recyclable materials
+* Microphone: to allow users to record audio messages
+
+#### 3.1.3 Software Interfaces
+The Recycle mobile application will use the following software interfaces:
+
+* Google Maps API: to allow users to search for local recycling centers by location
+* Firebase: to store user data and preferences
+
+#### 3.1.4 Communication Interfaces
+The Recycle mobile application will use the following communication interfaces:
+
+* HTTP: to communicate with the Recycle API
+* WebSocket: to receive real-time updates from the Recycle API
+
+### 3.2 Functional Requirements
+
+#### Use Cases
+The following use cases describe how the Recycle mobile application will be used:
+
+* A user searches for a local recycling center by location.
+* A user views the details of a local recycling center.
+* A user tracks their own recycling progress.
+* A user receives a notification when a new recycling center is added to the application.
+
+#### Functional Requirements
+The Recycle mobile application will meet the following functional requirements:
+
+* The application will allow users to search for local recycling centers by location or type of material.
+* The application will provide information about each recycling center, including hours of operation, accepted materials, and contact information.
+* The application will allow users to track their own recycling progress.
+* The application will provide tips and advice on how to recycle more effectively.
+
+### 3.3 Non-functional Requirements
+
+#### 3.3.1 Performance Requirements
+The Recycle mobile application will meet the following performance requirements:
+
+* The application will be able to search for local recycling centers in less than 5 seconds.
+* The application will be able to load the details of a local recycling center in less than 3 seconds.
+* The application will be able to track a user's recycling progress in real time.
+
+#### 3.3.2 Security Requirements
+The Recycle mobile application will meet the following security requirements:
+
+* The application will protect user data from unauthorized access.
+* The application will use secure communication protocols to transmit data.
+* The application will be regularly updated to patch security vulnerabilities.
+
+#### 3.3.3 Reliability Requirements
+The Recycle mobile application will meet the following reliability requirements:
+
+* The application will be available 24/7.
+* The application will be able to handle a high volume of users.
+* The application will be able to recover from failures quickly.
+
+#### 3.3.4 Usability Requirements
+The Recycle mobile application will meet the following usability requirements:
+
+* The application will be easy to navigate.
+* The application will use clear and concise language.
+* The application will be visually appealing.
+
+#### 3.3.5 Maintainability Requirements
+The Recycle mobile application will meet the following maintainability requirements:
+
+* The application will be easy to update.
+* The application will
